@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>New Tab</title>
+        <link rel = "stylesheet" type = "text/css" href = "index.css">
+        <link rel = "stylesheet" type = "text/css" href = "logo.css">
+        <link rel = "stylesheet" type = "text/css" href = "goto.css">
+        <link rel = "stylesheet" type = "text/css" href = "todo.css">
+        <link rel = "stylesheet" type = "text/css" href = "modal.css">
+        <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@600&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class = "container">
+            <div class = "todo">
+                
+            </div>
+
+            <div class = "logo">
+                <div class = "logo-text">
+                    <h7>Don't worry about being flawless</h7><br>
+                    <h7>Fly! Be a flare, a flame</h7><br>
+                    <h7>rather than mere flashy fluorescence!</h7><br>
+                    <h7>Flourish!</h7>
+                </div>
+            </div>
+            <div class = "goto">
+                <div class = "goto-contain">
+                    <div class = "goto-content">
+                        <!-- button item will be here -->
+                    </div>
+                    <div>
+                        <input type = "button" value = "Add" class = "goto-item" id = "ID-add"/>
+                        <input type = "button" value = "Clear" class = "goto-item" id = "goto-clear"/>
+                    </div>
+                </div>
+            </div>
+            <div class = "modal" id = "ID-modal">
+                <div class = "modal-content">
+                    <p id = "modal-baro">바로가기 추가</p>
+                    <h7 class = "modal-text3">이름</h7><br>
+                    <input type = "text" autocomplete="off" id = "modal-text1"><br><br><br>
+                    <h7 class = "modal-text3">URL</h7><br>
+                    <input type = "text" autocomplete="off" id = "modal-text2"><br><br><br>
+                    <span class = "modal-span" id = "modal-delete">삭제</span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <span class = "modal-span" id = "modal-cancel">취소</span>&emsp;
+                    <span class = "modal-span" id = "modal-complete" onclick = "addBtn();">완료</span>
+                </div>
+            </div>
+        </div>
+        <script src = "btn.js"></script>
+        <script src = "goto.js"></script>
+        <script src = "index.js"></script>
+    </body>
+</html>

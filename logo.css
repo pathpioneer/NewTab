@@ -1,0 +1,20 @@
+.logo{
+    background-color: rgba(229,229,229, 0.5);
+    border: 3px solid;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.logo:hover{
+    background-color: rgba(229,229,229, 0.9);
+}
+
+.logo-text{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 100px;
+    padding-top: 50px;
+    line-height: 150%;
+}
